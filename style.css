@@ -1,0 +1,61 @@
+
+
+.banner{
+	background-image: url("images/FirstBackground.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner h2{
+	font-size: 55px;
+}
+.section2 p::before{
+	content: '{';
+	color: #E74C3C ;
+}
+.section2 p::after{
+	content: '}';
+	color: #E74C3C ;
+}
+.section2 p{
+	font-size: 24px;
+	font-weight: bold;
+}
+.section2 .margin-left{
+	margin-left: -100px;
+}
+.module-bg{
+	background-image: url("images/OfficeLoc.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.interview{
+	background-image:url("images/4men.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.interview1{
+	background-image:url("images/TwoPeopleCon.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vh-60{
+	height: 60vh;
+}
+.interview> div, .interview1> div{
+	background: rgba(0, 0, 0, 0.7);
+	height: 100%;
+}
+
+@media screen and (max-width: 576px){
+	.section2 .margin-left{
+		margin-left: 0px;
+	}
+	.banner{
+		background-image: none;
+		background-color: #E5E7E9 ;
+	}
+	.module-bg .vh-100{
+		height: auto !important;
+	}
+}
